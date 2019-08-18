@@ -55,7 +55,7 @@ class TodoListsController < ApplicationController
   # DELETE /todo_lists/1.json
   def destroy
     @todo_list.destroy
-    redirect_to todo_lists_path
+    redirect_to root_path
   end
 
   private
